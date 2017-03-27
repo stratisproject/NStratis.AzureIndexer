@@ -38,8 +38,12 @@
     <Reference Include="CommandLine">
       <HintPath>..\packages\CommandLineParser.1.9.71\lib\net45\CommandLine.dll</HintPath>
     </Reference>
-    <Reference Include="NBitcoin, Version=3.0.0.74, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\NBitcoin.3.0.0.74\lib\net45\NBitcoin.dll</HintPath>
+    <Reference Include="HashLib, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\NStratis.3.0.1\lib\net45\HashLib.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NBitcoin, Version=3.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\NStratis.3.0.1\lib\net45\NBitcoin.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
@@ -75,9 +79,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NBitcoin.Indexer\NBitcoin.Indexer.csproj">
+    <ProjectReference Include="..\NStratis.Indexer\NStratis.Indexer.csproj">
       <Project>{210de089-5d25-4967-a7a4-95b98a823da2}</Project>
-      <Name>NBitcoin.Indexer</Name>
+      <Name>NStratis.Indexer</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
