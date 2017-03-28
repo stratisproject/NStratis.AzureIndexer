@@ -2,7 +2,7 @@
 <package >
 	<metadata>
 		<id>NStratis.Indexer</id>
-		<version>$version$</version>
+		<version>$version$-alpha</version>
 		<title>NStratis.Indexer</title>
 		<authors>Nicolas Dorier</authors>
 		<owners>$author$</owners>

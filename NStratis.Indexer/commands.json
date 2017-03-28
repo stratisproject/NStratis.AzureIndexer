@@ -1,0 +1,9 @@
+{
+  "commands": {
+    "PushNuget": {
+      "fileName": "powershell.exe",
+      "workingDirectory": ".",
+      "arguments": "-ExecutionPolicy Bypass -NonInteractive -File PushNuget.ps1"
+    }
+  }
+}
