@@ -39,11 +39,11 @@
       <HintPath>..\packages\CommandLineParser.1.9.71\lib\net45\CommandLine.dll</HintPath>
     </Reference>
     <Reference Include="HashLib, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\NStratis.3.0.1\lib\net45\HashLib.dll</HintPath>
+      <HintPath>..\packages\NStratis.3.0.2.10\lib\net45\HashLib.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="NBitcoin, Version=3.0.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\NStratis.3.0.1\lib\net45\NBitcoin.dll</HintPath>
+    <Reference Include="NBitcoin, Version=3.0.2.10, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\NStratis.3.0.2.10\lib\net45\NBitcoin.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
