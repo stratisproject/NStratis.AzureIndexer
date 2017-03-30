@@ -7,15 +7,15 @@
 	<UsingTask TaskName="GetRegex" AssemblyFile="bin/Build.dll"></UsingTask>
 	
 	<Target Name="Deploy">
-		<GetRegex File="../NBitcoin.Indexer/Properties/AssemblyInfo.cs"
+		<GetRegex File="../NStratis.AzureIndexer/Properties/AssemblyInfo.cs"
 				  Regex="AssemblyVersion\(&quot;(.*?)&quot;\)"
 				  Group="1">
 			<Output PropertyName="ProductVersion" TaskParameter="Result"/>
 		</GetRegex>
 
 		<Build.ZipTask
-			Folder="..\NStratis.Indexer.Console/bin/Release"
-			OutputFile="NStratis.Indexer.Console.zip"
+			Folder="..\NStratis.AzureIndexer.Console/bin/Release"
+			OutputFile="NStratis.AzureIndexer.Console.zip"
 			>
 
 		</Build.ZipTask>
@@ -25,8 +25,8 @@
 		    AccountName="aois"
 			KeyValue="FJDm71T8F1vaz5Z1CkbydWp7HltwfoFgwkizi4CFcLvsd+1WrPzLVxH9ZMeONGU1x80FIrZW3vBs0KUxS3oU4g=="
 			Container="public"
-			BlobName="NStratis.Indexer.Console.zip"
-			File="NStratis.Indexer.Console.zip"
+			BlobName="NStratis.AzureIndexer.Console.zip"
+			File="NStratis.AzureIndexer.Console.zip"
 			></Build.UploadBlobTask>
 	</Target>
 	
