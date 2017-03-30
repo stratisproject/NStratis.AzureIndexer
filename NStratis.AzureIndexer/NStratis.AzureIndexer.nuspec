@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+	<metadata>
+		<id>NStratis.AzureIndexer</id>
+		<version>$version$</version>
+		<title>NStratis.AzureIndexer</title>
+		<authors>Stratis Platform</authors>
+		<owners>$author$</owners>
+      <iconUrl>http://stratisplatform.com/files/2016/06/Stratis_Logo-Full_Colored_On-White.jpg</iconUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>Block chain Indexer using Microsoft Azure as backend</description>
+		<summary></summary>
+		<projectUrl>https://github.com/stratisproject/NStratis.AzureIndexer</projectUrl>
+		<copyright>Copyright 2017</copyright>
+		<tags>stratis</tags>
+	</metadata>
+	<files>
+		<file src="bin\Release\NStratis.AzureIndexer.pdb" target="lib\net45" />
+	</files>
+</package>

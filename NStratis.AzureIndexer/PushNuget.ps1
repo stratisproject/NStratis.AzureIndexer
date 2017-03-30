@@ -1,5 +1,5 @@
 del *.nupkg 
-nuGet pack .\NStratis.Indexer.csproj -Build -Properties Configuration=Release -Properties -includereferencedprojects
+..\.nuget\NuGet.exe pack .\NStratis.AzureIndexer.csproj -Build -Properties Configuration=Release -Properties -includereferencedprojects
 #forfiles /m *.nupkg /c "cmd /c NuGet.exe push @FILE -source https://api.nuget.org/v3/index.json"
 #(((dir *.nupkg).Name) -match "[0-9]+?\.[0-9]+?\.[0-9]+?\.[0-9]+")
 #$ver = $Matches.Item(0)

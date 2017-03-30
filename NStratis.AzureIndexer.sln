@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NStratis.Indexer", "NStratis.Indexer\NStratis.Indexer.csproj", "{210DE089-5D25-4967-A7A4-95B98A823DA2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NStratis.AzureIndexer", "NStratis.AzureIndexer\NStratis.AzureIndexer.csproj", "{210DE089-5D25-4967-A7A4-95B98A823DA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NStratis.Indexer.Tests", "NStratis.Indexer.Tests\NStratis.Indexer.Tests.csproj", "{49FC1C12-A820-440C-9859-7D392A5ABB3C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NStratis.AzureIndexer.Tests", "NStratis.AzureIndexer.Tests\NStratis.AzureIndexer.Tests.csproj", "{49FC1C12-A820-440C-9859-7D392A5ABB3C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{292BAB67-D8C3-454A-AC94-940AEC560EAA}"
 	ProjectSection(SolutionItems) = preProject
@@ -14,11 +14,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{292BAB
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NStratis.Indexer.Console", "NStratis.Indexer.Console\NStratis.Indexer.Console.csproj", "{08163004-F602-4721-A08D-83591234B560}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NStratis.AzureIndexer.Console", "NStratis.AzureIndexer.Console\NStratis.AzureIndexer.Console.csproj", "{08163004-F602-4721-A08D-83591234B560}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Build", "Build\Build.csproj", "{32493E97-CF3A-42E5-8EA1-56964E6469C8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{805F68D0-C345-4518-B919-D24F8F13272E}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

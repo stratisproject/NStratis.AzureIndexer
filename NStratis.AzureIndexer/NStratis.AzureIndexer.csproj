@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>NBitcoin.Indexer</RootNamespace>
-    <AssemblyName>NStratis.Indexer</AssemblyName>
+    <AssemblyName>NStratis.AzureIndexer</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
@@ -124,7 +124,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="NStratis.Indexer.nuspec" />
+    <None Include="NStratis.AzureIndexer.nuspec" />
     <None Include="packages.config" />
     <None Include="PushNuget.ps1" />
   </ItemGroup>
@@ -145,6 +145,6 @@
   </Target> 
   -->
   <Target Name="AfterBuild">
-    <Exec Condition="'$(GitLink)' == 'True'" Command=".\GitLink.exe &quot;..&quot; -ignore &quot;build,nstratis.indexer.console,nstratis.indexer.tests&quot;" />
+    <Exec Condition="'$(GitLink)' == 'True'" Command=".\GitLink.exe &quot;..&quot; -ignore &quot;build,nstratis.azureindexer.console,nstratis.azureindexer.tests&quot;" />
   </Target>
 </Project>
