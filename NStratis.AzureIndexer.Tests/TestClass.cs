@@ -320,7 +320,7 @@ namespace NBitcoin.Indexer.Tests
         private Block PushStore(BlockStore store, Transaction tx, Block prev = null)
         {
             if(prev == null)
-                prev = Network.Main.GetGenesis();
+                prev = Network.StratisTest.GetGenesis();
             var b = new Block()
                {
                    Header =
