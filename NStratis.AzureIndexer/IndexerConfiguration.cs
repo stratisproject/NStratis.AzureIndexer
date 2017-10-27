@@ -76,7 +76,7 @@ namespace NBitcoin.Indexer
         }
         public IndexerConfiguration()
         {
-            Network = Network.Main;
+            Network = Network.StratisTest;
         }
         public Network Network
         {

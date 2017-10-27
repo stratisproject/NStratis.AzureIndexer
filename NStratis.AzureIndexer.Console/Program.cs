@@ -14,6 +14,7 @@ namespace NBitcoin.Indexer.Console
     {
         static void Main(string[] args)
         {
+	        var t = Network.StratisTest;
             try
             {
                 var options = new IndexerOptions();
